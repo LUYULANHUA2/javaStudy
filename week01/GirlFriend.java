@@ -6,6 +6,7 @@ package week01;
 public class GirlFriend {
 
     private int age;
+    private String name;
 
     public void getAge() {
         int age = 10;
@@ -13,7 +14,7 @@ public class GirlFriend {
         System.out.println(this.age);
     }
 
-    public void setAge(int x){
+    public void setAge(int x) {
         this.age = x;
     }
 }
