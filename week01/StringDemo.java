@@ -35,9 +35,22 @@ public class StringDemo {
         System.out.println(c);
 
         // 两个在串池中公用一个"abc"
+        String str1 = "abc";
+        String str3 = "a" + "b" + "c";
+        System.out.println(str1 == str3);
+
         String s1 = "abc";
-        String s2 = "a" + "b" + "c";
-        System.out.println(s1 == s2);
+        String s2 = "abc";
+        // System.out.println(s1);
+        // System.out.println(s2);
+
+        int hashCode = System.identityHashCode(s1);
+        System.out.println("s1对象的引用：" + hashCode);
+        hashCode = System.identityHashCode(s2);
+        System.out.println("s2对象的引用：" + hashCode);
+        s2 += 'c';
+        hashCode = System.identityHashCode(s2);
+        System.out.println("s2对象的引用：" + hashCode);
 
         // StringBUilder的底层实现，当超过基础的容量，
         // 进行扩容*2+2，超过扩容容量的时候，以实际的长度为容量
@@ -91,7 +104,7 @@ public class StringDemo {
                 while (90 < res && res < 97) {
                     res = r2.nextInt(65, 122);
                 }
-                str+=(char)res;
+                str += (char) res;
             }
         }
         return str;

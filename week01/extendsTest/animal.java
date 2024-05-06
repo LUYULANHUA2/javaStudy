@@ -1,10 +1,8 @@
-package week01;
+package week01.extendsTest;
 
-public class Friend {
+public class animal {
     private String name;
     private int age;
-    private String id;
-
     public String getName() {
         return this.name;
     }
@@ -21,12 +19,11 @@ public class Friend {
         this.age = age;
     }
 
-    public String getId() {
-        return this.id;
+    public void eat(){
+        System.out.println("吃饭~~~");
     }
-
-    public void ssetId(String id) {
-        this.id = id;
+    public void drink(){
+        System.out.println("喝水~~~");
     }
-
+    
 }
