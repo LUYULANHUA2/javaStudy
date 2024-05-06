@@ -4,7 +4,9 @@ public class ClassTest {
     public static void main(String[] args) {
         GirlFriend g = new GirlFriend();
         g.setAge(203);
-        g.getAge();
+        g.setName("gauss");
+        System.out.println(g.getName());
+        System.out.println(g.getAge());
         System.out.println(GirlFriend.teacherName);
 
         String s1 = "abc";
