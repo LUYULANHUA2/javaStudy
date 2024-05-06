@@ -5,6 +5,7 @@ public class ClassTest {
         GirlFriend g = new GirlFriend();
         g.setAge(203);
         g.getAge();
+        System.out.println(GirlFriend.teacherName);
 
         String s1 = "abc";
         String s2 = "abc";
