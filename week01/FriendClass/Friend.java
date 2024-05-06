@@ -1,7 +1,7 @@
 package week01.FriendClass;
 
 public class Friend {
-    private String name;
+    public String name = "Fu";
     private int age;
     private String id;
 
@@ -37,6 +37,10 @@ public class Friend {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public void work(){
+        System.out.println("friend work");
     }
 
 }

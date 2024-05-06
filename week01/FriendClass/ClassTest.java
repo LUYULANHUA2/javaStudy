@@ -18,5 +18,12 @@ public class ClassTest {
         System.out.println(lin.getName());
         System.out.println(lin.getId());
         System.out.println(lin.getAge());
+
+        //成员变量的就近原则
+        GirlFriend khora = new GirlFriend();
+        khora.show();
+
+        //子类重写父类的方法
+        khora.work();
     }
 }
