@@ -5,7 +5,7 @@ package week01.FriendClass;
  */
 public class GirlFriend extends Friend {
 
-    public String name = "Zi";
+    // public String name = "Zi";
     static final String teacherName = "khora";
 
     public GirlFriend() {
