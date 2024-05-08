@@ -22,9 +22,18 @@ public class test {
                 System.out.println("eatting~~~");
             }
         });
+
+        //匿名内部类的lambds简化
+        method02(()->{
+            System.out.println("swimming");
+        });
     }
 
     public static void method(animal a) {
         a.eat();
+    }
+
+    public static void method02(Swim s){
+        s.swimming();
     }
 }

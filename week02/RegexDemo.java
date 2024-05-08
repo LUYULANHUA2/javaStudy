@@ -7,6 +7,9 @@ public class RegexDemo {
         System.out.println(qq.matches("[1-9]\\d{5,19}"));
 
         System.out.println("ab".matches("[abc][abc]"));
+
+        System.out.println("zz".matches("[^abc][^abc]"));
+        // Integer i = new Integer(22);
     }
     
 }
