@@ -6,7 +6,6 @@ import java.util.Queue;
 public class BFS {
     public static void main(String[] args) {
         int[] arr = { 5, 4, 8, 11, 0, 13, 4, 7, 2, 0, 0, 5, 1 };
-
         TreeNode root = buildBFS(arr);
         show(root);
     }
