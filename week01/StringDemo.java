@@ -75,7 +75,7 @@ public class StringDemo {
 
         System.out.println((int) '9');// 48~57
         System.out.println((char) 122);// 65~90 + 97~122
-        System.out.println(yanzhengma(6));
+        System.out.println(yanzhengma(16));
 
     }
 
