@@ -1,4 +1,4 @@
-package Thread;
+package week03_thread;
 
 public class ThreadDemo {
     public static void main(String[] args) {
@@ -12,5 +12,13 @@ public class ThreadDemo {
         t2.start();
         t3.start();
         t1.start();
+
+        Foodie foodie = new Foodie();
+        foodie.setName("foodie");
+        Cook cook = new Cook();
+        cook.setName("cook");
+        foodie.start();
+        cook.start();
+
     }
 }
