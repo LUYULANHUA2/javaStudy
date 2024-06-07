@@ -5,12 +5,12 @@ public class testMain {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(student01.test);
-        student01.test = "test10";
+        System.out.println(Student01.test);
+        Student01.test = "test10";
         test02();
-        System.out.println(student01.test);
+        System.out.println(Student01.test);
         test03();
-        System.out.println(student01.test);
+        System.out.println(Student01.test);
 
         String str = "123456";
         String str1 = new String("123456");
@@ -41,10 +41,10 @@ public class testMain {
     }
 
     public static void test02() {
-        student01.test = "test02";
+        Student01.test = "test02";
     }
 
     public static void test03() {
-        student01.test = "test03";
+        Student01.test = "test03";
     }
 }
